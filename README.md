@@ -1,11 +1,23 @@
-Reflections
+## Reflections
 
-Monday
+### Monday
 We started the day by discussing what we might want to look at; we disucused languages, useful connections between data sites, such supabase and clerk, before finally agreeing on the component library from ant design. We then set about having a comprehensive look at what components we could used and designed a wire frame with those components in mind. We set up google docs for our documentation, canva to do our wireframe & slideshow and a trello board of tasks to complete for each section of the project requirements.
 We created a communication plan for the project in google docs. We read through the documentation extensively and created a pros/cons list of why we chose to look at ant design, and even compared the experience with look through other components librarys.
 
-Tuesday
+## Tuesday
 Started the day by creating our standup. We felt that the progress we made yesterday meant we had a lot of the documentation set up to a point where we could add to it as the week goes on. We discussed potential blockers and concluded that we thought translating some of the components demos from the ant design website (which are in chinese) may prove problematic, and also there might be compatibility issues with the components themselves. We agreed on a plan for the morning; set up the app template in vs.code and create the components folders we will need, set up github and vercel then do the git cloning to ensure we both have access to the repo. We agreed to both choose a component and have a play about with it in the sandbox provided on ant design website. Steph chose the tabs component, as well as translating the demo code from chinese to add to the google doc ready for the following day when we intend to try and work with the component. Corinna found she had inssues with using the sandbox as it said it wasn't connected to the server so did in the app, then immediately ran into a error that said the 'default export is not a react component in "/page". Corinna went back and had another look at the documentation and tried moving the layout code to the layout page in the app as opposed to the page in the folder she had created for the componet itself. The code still errored, so Corinna took a break to update the readMe before coming back to it. After discussing the issue with Steph, Corinna thought the issue might be because the components folder was outside of the app folder, and therefore outside of the scope. Corinna moved the folder accordingly, however the page still errored so Corinna took the error to chat gpt - prior to this Corinna was thinking that the components may need to be styled using tailwind in order to have dimension and structure as it might break without them, but put that thought on the backburner as it wasnt in the demo. Chat gpt explained that the layout component was a container...
 
-Wednesday
+## Wednesday
 Started the day discussing where to proceed following our day reading up on the documentation yesterday and translating some of the demo code that needed doing so for easier referral during implementation and usage. The layout component has now been successfully rendered on to the page follow an initial hiccup with the implementation which was caused due to the code being written more in mind for react than Next, which needed a slightly different approach to how we implemented it. However we were able to successfully get this up and running following consultation with Manny after initial probing into the issue with ChatGPT and additional documentation due to the translation issues and to ensure that we were covering as many bases as possible in our troubleshooting. We have since been playing about with the sidebar aspects of the layout component and trialing that. Steph has continued with the translations of the components and pulling together layout plans for the website components and pieces that we can put together to flesh out the website.
+
+Playing about with the styling of the layouts and trying to troubleshoot why things were not rendering to scale. Steph will be playing about with things tonight and seeing how the components integrate and see if she can find a means to render the layout.
+
+## Thursday
+#TODO
+Steph - work from bottom up on the components following up from playing around with those bits in the evening on Weds and getting the text content, links etc. put into those and get an initial pass at each component ready.
+Corinna - . Playing around with Layout and styling. Work top down on components.
+Goal for the day - First pass
+
+## Friday
+#TODO
+Presentation work and recording run through of the code. Timed rehearsel of the presentation (5 minutes, 6 max)
