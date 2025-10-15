@@ -1,7 +1,10 @@
-import Layout from "antd";
+import TestLayout from "@/components/TestLayout";
 
-// export default function Homepage() {
-//     return (
-
-//     );
-// }
+export default function Homepage() {
+  return (
+    <>
+      <h1>Home Page</h1>
+      <TestLayout></TestLayout>
+    </>
+  );
+}
