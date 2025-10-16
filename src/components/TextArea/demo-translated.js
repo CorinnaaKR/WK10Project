@@ -8,7 +8,7 @@ export function WelcomeTextDemo() {
       <div title="Word Limit">
         <TextArea
           defaultValue={
-            "This is an example of an interactive text field using Ant Design"
+            "Ant Design has various components, including character limited textareas"
           }
           showCount
           maxLength={80}

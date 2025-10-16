@@ -8,6 +8,7 @@ import WelcomeAreaText from "@/components/CentralisedText/welcome-area-text.js";
 import ProjectsTabs from "@/components/Tabs/projects-tabs.js";
 import Gallery from "@/components/Gallery/gallery.js";
 import ProjectFooter from "@/components/footer/footer.js";
+import GitHubText from "@/components/CentralisedText/githubtext.js";
 
 export default function Homepage() {
   return (
@@ -15,7 +16,7 @@ export default function Homepage() {
       <VeryLongNoticeBar />
       <NavBar />
       <WelcomeAreaText />
-      <DividerDemo />
+      {/* <DividerDemo /> */}
       <TestLayout>
         <header>
           <h1>Home Page</h1>
@@ -26,6 +27,7 @@ export default function Homepage() {
       <DividerDemo />
       <WelcomeTextDemo />
       <DividerDemo />
+      <GitHubText />
       <Gallery />
       <DividerDemo />
       <ProjectFooter />
