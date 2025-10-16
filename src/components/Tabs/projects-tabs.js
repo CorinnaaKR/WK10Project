@@ -23,10 +23,21 @@ const items = [
     label: "Steph",
     children: (
       <p>
-        Corinna&apos;s projects can be found:{" "}
-        <a href="https://github.com/Stenataphcalkin" target="_blank">
-          here{" "}
-        </a>
+        Hi! I&apos;m a digital marketing executive turned full-stack developer
+        in training. My background in marketing has given me a strong foundation
+        in understanding user experience, journeys, and site design which I aim
+        to apply in all my projects.
+        <p>
+          <br /> Outside of coding, you&apos;ll likely find me in the local
+          tabletop gaming stores and waxing-lyrical about Pokémon, or taking
+          part in roleplaying games as both a player and dungeon-master!
+          <p>
+            <br /> Steph&apos;s projects can be found:{" "}
+            <a href="https://github.com/Stenataphcalkin" target="_blank">
+              here{" "}
+            </a>
+          </p>
+        </p>
       </p>
     ),
   },
@@ -35,8 +46,11 @@ const items = [
     label: "Group",
     children: (
       <p>
-        our group project, featuring IndieMasco found:{" "}
-        <a href="https://github.com/Stenataphcalkin" target="_blank">
+        This is our group project, featuring IndieMasco found:{" "}
+        <a
+          href="https://github.com/IndieMasco/TechEdWeek5GroupAssignment-"
+          target="_blank"
+        >
           here{" "}
         </a>
       </p>
