@@ -14,7 +14,9 @@ export default function VeryLoNavBar1ngNoticeBar() {
   return (
     <>
       {/* <DemoBlock title="Basic usage" padding="0"> */}
-      <NavBar>Corinna & Steph</NavBar>
+      <NavBar>
+        <b style={{ fontWeight: "bold" }}>Corinna & Steph</b>
+      </NavBar>{" "}
       {/* </DemoBlock> */}
     </>
   );
