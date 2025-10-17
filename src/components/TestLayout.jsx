@@ -7,6 +7,7 @@ import WelcomeAreaText from "@/components/CentralisedText/welcome-area-text.js";
 const { Header, Sider, Content, Footer } = Layout;
 
 const TestLayout = () => (
+
   <Layout style={{ minHeight: "100vh" }}>
     <Sider width={150} style={{ background: "peru" }}>
       <div style={{ color: "white", padding: "16px" }}>Sider</div>
