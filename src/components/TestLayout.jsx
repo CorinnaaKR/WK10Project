@@ -5,7 +5,7 @@ import "antd/dist/reset.css"; // for AntD v5
 const { Header, Sider, Content, Footer } = Layout;
 
 const TestLayout = () => (
-  <Layout style={layoutStyle} width="100vw, auto">
+  <Layout style={layoutStyle} width="100%, auto">
     <Sider width={150} style={{ background: "#001529" }}>
       <div style={{ color: "white", padding: "16px" }}>Sider</div>
     </Sider>
