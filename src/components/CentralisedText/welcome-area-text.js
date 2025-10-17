@@ -7,23 +7,27 @@ export default function WelcomeAreaText() {
     <>
       <div title="Text">
         <AutoCenter>
-          <p>
-            Steph & Corinna&apos;s projects. Pokem ipsum dolor sit amet Ponyta
-            Ninjask Clefairy Raichu Uxie Espeon. Sand-Attack Pokemon The Movie
-            2000 Hoothoot Meloetta S.S. Anne Porygon. Dig Mime Jr Gastly Ash
-            Ketchum Rainbow Badge Metapod Cerulean City. Dig Rattata Wailmer
-            Swanna Vulpix Sonic Boom Garbodor.
-          </p>
-          <p>
-            Yellow Chimecho Articuno Excadrill anim id est laborum Sandshrew
-            Vaporeon. Normal Lillipup Sunflora Shroomish I know its my destiny
-            Unown Kadabra. Team Rocket Mothim Minccino Snorunt Electrike
-            Magnezone Kricketot. Volcano Badge Hariyama Zebstrika Klinklang
-            Liepard Kanto Swalot. Pewter City Honchkrow Dark Zekrom Pidgeotto
-            Giratina Azurill. Swift Pawniard Pinsir Electrode Water Landorus
-            Magby.
-          </p>
+          <p>Welcome in!</p>
+          <br />
         </AutoCenter>
+        <p>
+          We&apos;re Corinna & Steph, two aspiring full-stack developers
+          currently studying at Tech Educators. This site is our collaborative
+          week 10 project, which is built with Ant Design, a component library
+          that allows for clean layouts that makes for a great transition for
+          users going between prebuilt or drag and drop website builders into
+          more of a full development environment.{" "}
+        </p>
+        <br />
+        <p>
+          Here you&apos;ll find a collection of our individual and joint
+          projects, highlighting our journey as developers and the skills we’ve
+          been building along the way. From creative front-end interfaces to
+          full-stack applications, each project reflects our growth, curiosity,
+          and love for code.
+        </p>
+        <br />
+        <p>Take a look around as we&apos;d love to hear what you think!</p>
       </div>
     </>
   );
